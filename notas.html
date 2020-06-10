@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notas</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style/estilo.css" />
+    <script src="script1.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Colégio Fictício</h1>
+
+      <img
+        src="style/escola.png"
+        alt="imagem preto e branco de uma fachada de escola"
+      />
+    </header>
+
+    <h3>Turmas</h3>
+
+    <div class="container">
+      <img
+        src="style/notas-usuario.png"
+        alt="imagem de uma lista feita em papel"
+        width="320"
+        height="205"
+      />
+    </div>
+
+    <section id="button1" class="hidden">
+      <button onclick="onOff1()">Notas Lançadas Turma X</button>
+    </section>
+
+    <section id="button2" class="hidden">
+      <button onclick="onOff2()">Notas Lançadas Turma Y</button>
+    </section>
+
+    <div id="turmaX">
+      <form id="tX" class="tabela">
+        <h4>Turma X</h4>
+
+        <table
+          style="text-align: center;"
+          type="text"
+          cellspacing="4"
+          celppading=""
+          border="2"
+        >
+          <tr id="mudanca">
+            <td id="especial1">Aluno</td>
+            <td>Nota 1</td>
+            <td>Nota 2</td>
+            <td>Nota 3</td>
+          </tr>
+
+          <tr>
+            <td id="especial">Bruna</td>
+            <td>7</td>
+            <td>7,5</td>
+            <td>10</td>
+          </tr>
+
+          <tr>
+            <td id="especial">Caio</td>
+            <td>10</td>
+            <td>7,5</td>
+            <td>5</td>
+          </tr>
+
+          <tr>
+            <td id="especial">Denis</td>
+            <td>7</td>
+            <td>7,5</td>
+            <td>10</td>
+          </tr>
+
+          <tr>
+            <td id="especial">Lara</td>
+            <td>7</td>
+            <td>9</td>
+            <td>6</td>
+          </tr>
+
+          <tr>
+            <td id="especial">Maria</td>
+            <td>7,5</td>
+            <td>8</td>
+            <td>4</td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <div id="turmaY">
+      <form id="tY" class="tabela">
+        <h4>Turma Y</h4>
+
+        <table
+          class="outraTurma"
+          style="text-align: center;"
+          type="text"
+          cellspacing="4"
+          celppading=""
+          border="2"
+        >
+          <tr id="mudanca">
+            <td id="especial1">Aluno</td>
+            <td>Nota 1</td>
+            <td>Nota 2</td>
+            <td>Nota 3</td>
+          </tr>
+
+          <tr>
+            <td id="especial">Augusto</td>
+            <td>7</td>
+            <td>7,5</td>
+            <td>10</td>
+          </tr>
+
+          <tr>
+            <td id="especial">Hugo</td>
+            <td>10</td>
+            <td>7,5</td>
+            <td>5</td>
+          </tr>
+
+          <tr>
+            <td id="especial">Igor</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+          </tr>
+
+          <tr>
+            <td id="especial">Lara</td>
+            <td>7</td>
+            <td>9</td>
+            <td>6</td>
+          </tr>
+
+          <tr>
+            <td id="especial">Maria</td>
+            <td>7,5</td>
+            <td>8</td>
+            <td>4</td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+:root {
+  font-family: "Lexend Tera", sans-serif;
+  color: brown;
+}
+
+html {
+  font-family: "Lexend Tera", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+header img {
+  /* escola */
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+
+body .container img {
+  max-width: 100px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+}
+
+section#button1 {
+  display: inline-flex;
+  justify-content: left;
+  width: auto;
+  margin: auto;
+}
+
+section#button2 {
+  display: inline-flex;
+  justify-content: right;
+  width: auto;
+  margin: auto;
+}
+
+form table {
+  margin: 0 auto;
+  margin-top: 22px;
+  width: 20%;
+}
+
+form table tr#mudanca {
+  color: beige;
+}
+
+form table td#especial1 {
+  color: rgb(219, 58, 58);
+  font-style: italic;
+}
+
+form table td#especial {
+  color: black;
+}
+
+form table#outraTurma {
+  margin: 0 auto;
+  margin-top: 22px;
+  width: 20%;
+}
+
+.hidden {
+  display: none;
+}
